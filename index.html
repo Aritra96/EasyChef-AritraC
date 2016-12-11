@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Easy Chef </title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.3/vue.js"></script>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+  	<script type="text/javascript" src="js/vue.js"></script>
+  	<script type="text/javascript" src="js/myscript.js"></script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<!-- NAVBAR -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+  		<div class="container">
+    		<div class="navbar-header">
+      			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>                        
+      			</button>
+      			<a class="navbar-brand" href="#myPage" id="logo"> Easy Chef </a>
+    		</div>
+    		<div class="collapse navbar-collapse" id="myNavbar">
+      			<ul class="nav navbar-nav navbar-right">
+        			<li><a href="#about">ABOUT US</a></li>
+        			<li><a href="#services">SERVICES</a></li>
+        			<li><a href="#expect">WHAT TO EXPECT</a></li>
+        			<li><a href="#webapp">WEB APP</a></li>
+        			<li><a href="#contact">CONTACT US</a></li>
+      			</ul>
+    		</div>
+  		</div>
+	</nav>
+
+<!-- HERE WE BEGIN -->
+
+	<div class="jumbotron text-center">
+  		<h1 id="mainfont">Easy Chef</h1> 
+  		<p>We help to get your ingredients sorted</p> 
+  		<form class="form-inline">
+    		<div class="input-group">
+      			<input type="email" class="form-control" size="50" placeholder="Email Address" required>
+      			<div class="input-group-btn">
+        			<button type="button" class="btn btn-danger">Subscribe</button>
+      			</div>
+   			</div>
+  		</form>
+	</div>
+
+<!-- The First Introduction Page -->
+
+	 <div class="container-fluid">
+  		<div class="row" id="about">
+    	<div class="col-sm-8">
+      		<h2>About Us</h2>
+      		<h4>Just Another Start-up But Wait...</h4> 
+      		<p> Easy Chef strives to be your go-to guy (or go-to app, for that matter) for all your kitchen needs.</p>
+      		<p> Think WikiHow but for food. Or Or EVERNOTE but for, well, food. Yeah. Pretty much. </p>
+      		<button class="btn btn-default btn-lg">Get in Touch (Please?)</button>
+    	</div>
+    	<div class="col-sm-4">
+      		<span class="glyphicon glyphicon-signal logo"></span>
+    	</div>
+  		</div>
+	</div>
+
+	<div class="container-fluid bg-grey">
+  		<div class="row">
+    	<div class="col-sm-4">
+      		<span class="glyphicon glyphicon-globe logo"></span> 
+    	</div>
+    	<div class="col-sm-8">
+      		<h2>Our Values</h2>
+      		<h4><strong>MISSION:</strong> To ensure a world where nobody has to worry about groceries or Google them again.</h4> 
+      		<p><strong>VISION:</strong> MAKE GROCERIES GREAT AGAIN! BETTER THAN AVIATO! Aviato? Aviato. </p>
+    	</div>
+  		</div>
+	</div> 
+
+<!-- The Next Segment with Services Offered -->
+
+	 <div class="container-fluid text-center" id="services">
+  		<h2>SERVICES</h2>
+  		<h4>What we offer</h4>
+  		<br>
+  		<div class="row">
+    		<div class="col-sm-6">
+      			<span class="glyphicon glyphicon-heart logo-small"></span>
+      			<h4>LOVE</h4>
+      			<p>Would you have it any other way?</p>
+    		</div>
+    	<div class="col-sm-6">
+      		<span class="glyphicon glyphicon-lock logo-small"></span>
+      		<h4>JOB DONE</h4>
+      		<p>Just the way YOU like it.</p>
+    	</div>
+  		</div>
+  		<br><br>
+  		<div class="row">
+    		<div class="col-sm-6">
+      			<span class="glyphicon glyphicon-leaf logo-small"></span>
+      			<h4>GREEN</h4>
+      			<p>Eco-Friendly because who doesn't love the Earth?(Answer: Climate change deniers)</p>
+    		</div>
+    	<div class="col-sm-6">
+      		<span class="glyphicon glyphicon-certificate logo-small"></span>
+      		<h4>ROBUST</h4>
+      		<p>And Play Store ready.</p>
+    	</div>
+  		</div>
+	</div> 
+
+	<!-- Our Achievements Segment -->
+
+	<div class="container-fluid text-center bg-grey" id="expect">
+  		<h2>WHAT TO EXPECT</h2>
+  		<h4> </h4>
+  		<div class="row text-center">
+    		<div class="col-sm-4">
+      			<div class="thumbnail">
+        			<img src="images/pastry2.jpg" alt="Pastries from Paris">
+        			<p><strong>Pastries from Paris</strong></p>
+        			<p> Awwh, Hell yeah! </p>
+      			</div>
+    		</div>
+    	<div class="col-sm-4">
+      		<div class="thumbnail">
+        		<img src="images/cocktails2.jpg" alt="New York">
+        		<p><strong>Cocktails from New York</strong></p>
+        		<p> Sorted the New York scenes! </p>
+      		</div>
+    	</div>
+    	<div class="col-sm-4">
+      		<div class="thumbnail">
+        		<img src="images/chicken2.jpg" alt="India">
+       			<p><strong>Chicken Tandoori from Delhi</strong></p>
+        		<p> Chicken Tandoori? Right up our alley! </p>
+      		</div>
+    	</div>
+		</div>
+
+		<!-- The Web App using Vue -->
+
+		<div class="container-fluid text-center">
+			<h2 class="text-center" id="webapp"> WEB APP BETA </h2>
+			
+			<div class="container" id="app">
+    		
+      			<input type="text" v-model="draft" placeholder="Please Type Here..."> 
+      			<br><br>
+      			<button @click="addItems()" type="button"> Add an Item </button>
+      			<ul> <br>
+        			<li v-for="item in items">{{item}}<button @click="removeItems($index)" type="button"> Remove </button></li>
+      			</ul>
+
+    		</div>
+			
+		</div>
+
+
+    	<script>
+
+      		new Vue({
+        		el: '#app',
+        		data: {
+        		items: [],
+        		draft: ""
+        		},
+        		methods: {
+          			addItems: function(){
+            		this.items.push(this.draft);
+            		this.draft="";
+          		},
+          			removeItems: function(index){
+            		this.items.splice(index, 1);
+         		 }
+        		}
+      		})
+    	</script>
+	
+
+<!-- Contacts Segment -->
+
+	<div class="container-fluid bg-grey">
+  		<h2 class="text-center" id="contact"> CONTACT US </h2>
+  		<div class="row">
+    	<div class="col-sm-5">
+      		<p>Contact us, we'll get back to you, let's see... </p>
+      		<p> in a few years. If we're still afloat. </p>
+      		<p><span class="glyphicon glyphicon-map-marker"></span> Pune, MH, India</p>
+      		<p><span class="glyphicon glyphicon-phone"></span> +91 9096808860</p>
+      		<p><span class="glyphicon glyphicon-envelope"></span> ezeechef@gmail.com</p> 
+    	</div>
+    	<div class="col-sm-7">
+      		<div class="row">
+        		<div class="col-sm-6 form-group">
+          			<input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        		</div>
+        	<div class="col-sm-6 form-group">
+          		<input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        	</div>
+      		</div>
+      		<textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      		<div class="row">
+        		<div class="col-sm-12 form-group">
+          			<button class="btn btn-default pull-right" type="submit">Send</button>
+        		</div>
+      		</div> 
+    	</div>
+  		</div>
+	</div>
+	</div>
+
+</body>
+
+</html>
