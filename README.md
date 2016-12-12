@@ -12,4 +12,4 @@ Given enough time, however, it has the potential to become the app it is destine
 
 To quote from a famous Batman movie (The Dark Knight),"It is the app SWENG deserves, but not the one it needs right now. So we'll critique it down. Because it can take it. Because it is not our hero. It is a silent CSS-bomb, a Vue-ful protector, A dark website." 
 
-###P.S. - On a more serious note, please go easy on this. 
+
