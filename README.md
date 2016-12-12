@@ -1,4 +1,4 @@
-# Software-Engineering-SEE---Aritra
+# The Easy Chef Project
 This is a repository dedicated to the final assessment component for the Software Engineering course at SSLA. 
 
 So what does this project really do?
