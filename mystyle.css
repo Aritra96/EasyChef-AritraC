@@ -126,9 +126,9 @@ input{
   height: 30px;
 }
 
-button{
+#newbtn2{
   height: 30px;
-  width: 300px;
+  width: 100px;
   background-color: #00b33c;
   color: #efefef;
   display: inline-block;
@@ -137,14 +137,25 @@ button{
   border: none;
 }
 
-button span{
+#newbtn{
+  height: 30px;
+  width: 280px;
+  background-color: #00b33c;
+  color: #efefef;
+  display: inline-block;
+  transition: all 0.5s;
+  cursor: pointer;
+  border: none;
+}
+
+#newbtn span{
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-button span:after {
+#newbtn span:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -153,11 +164,22 @@ button span:after {
   transition: 0.5s;
 }
 
-button:hover span {
+#newbtn:hover span {
   padding-right: 25px;
 }
 
-button:hover span:after {
+#newbtn:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+#newdiv{
+  border: 3px solid #00b33c;
+  padding: 40px;
+  width: 720px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  padding-top: 20px;
+  background: #00b33c;
+  color: #efefef;
 }

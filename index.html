@@ -144,19 +144,28 @@
 		<!-- The Web App using Vue -->
 
 		<div class="container-fluid text-center">
-				<h2 class="text-center" id="webapp"><i> Grocelicious! </i> BETA </h2>
+				<div class="container-fluid text-center" id="newdiv">
+				<h2 class="text-center" id="webapp"><i> Growcer! </i> BETA </h2>
+				<h4><i> Growcer </i> is our new system of tracking your every day groceries.</h4>
+				<h4> Going out to shop? Preferably at your local Grocery shop? Well, we have just the companion for you. 
+				 Grocery shopping was never this hassle-free because now you can(not) afford to get lost in the aisles 
+				truly without ever having to worry about what you were there to buy in the first place! 
+				 With Growcer, you can shop till you drop (all your money on things you never need). </h4>
+				</div>
+				<br>
+				<p> <b>We welcome you to try out our Beta!</b> </p>
 				<div class="container" id="app">
 				<table>
 					<tr>
       					<td><input type="text" v-model="draft" placeholder="Please Type Here..."></td> 
-      					<td><button @click="addItems()" type="button"><span> Add an Item </span></button></td>
+      					<td><button @click="addItems()" type="button" id="newbtn"><span> Add an Item </span></button></td>
       				</tr>
       				<tr>
-      					<td>
-      						<ol> 
-        						<li v-for="item in items">{{item}}<button @click="removeItems($index)" type="button"> Remove </button></li>
-      						</ol>
-      					</td>
+      				<td>
+      					<ol> 
+        					<li v-for="item in items">{{item}}<button @click="removeItems($index)" type="button" id="newbtn2"> Remove </button></li>
+      					</ol>
+      				</td>
       				</tr>
       			</table>
     			</div>
