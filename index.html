@@ -27,7 +27,7 @@
         			<li><a href="#about">ABOUT US</a></li>
         			<li><a href="#services">SERVICES</a></li>
         			<li><a href="#expect">WHAT TO EXPECT</a></li>
-        			<li><a href="#webapp">WEB APP</a></li>
+        			<li><a href="#webapp">OUR APP</a></li>
         			<li><a href="#contact">CONTACT US</a></li>
       			</ul>
     		</div>
@@ -144,19 +144,26 @@
 		<!-- The Web App using Vue -->
 
 		<div class="container-fluid text-center">
-			<h2 class="text-center" id="webapp"> WEB APP BETA </h2>
-			
-			<div class="container" id="app">
-    		
-      			<input type="text" v-model="draft" placeholder="Please Type Here..."> 
-      			<br><br>
-      			<button @click="addItems()" type="button"> Add an Item </button>
-      			<ul> <br>
-        			<li v-for="item in items">{{item}}<button @click="removeItems($index)" type="button"> Remove </button></li>
-      			</ul>
 
-    		</div>
-			
+				<h2 class="text-center" id="webapp"><i> Grocelicious! </i> BETA </h2>
+				
+				<div class="container" id="app">
+				<table>
+					<tr>
+      					<td><input type="text" v-model="draft" placeholder="Please Type Here..."></td> 
+      					<td><button @click="addItems()" type="button"> Add an Item </button></td>
+      				</tr>
+      				<tr>
+      					<td>
+      						<ol> 
+        						<li v-for="item in items">{{item}}<button @click="removeItems($index)" type="button"> Remove </button></li>
+      						</ol>
+      					</td>
+      				</tr>
+      			</table>
+    			</div>
+    			
+    	
 		</div>
 	
 
